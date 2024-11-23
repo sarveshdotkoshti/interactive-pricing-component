@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  @apply font-sans; /* Applies Inter font to the entire app */
+  width: full;
+}
+
+.dark {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+/* Range input track */
+.range-slider {
+  @apply h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer;
+}
+
+/* Webkit-based browsers (Chrome, Safari, Edge) */
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px; /*  as an example */
+  border-radius: 50%; /* Make the knob round */
+  border: 2px solid hsl(174, 77%, 80%); /* Add a white border */
+  background: url('/icon-slider.svg') no-repeat center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.range-slider::-webkit-slider-thumb:active{
+  border: 2px solid hsl(174, 86%, 45%) /* Add a white border */
+}
