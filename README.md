@@ -89,7 +89,7 @@ If you have any questions, feel free to reach out to me via GitHub
 
 ## Live Preview
 
-Check out the live version of the project here: [Interactive Pricing Component](https://your-deployment-link.vercel.app)
+Check out the live version of the project here: [Interactive Pricing Component](https://interactive-pricing-component-janf.vercel.app/)
 
 ---
 
