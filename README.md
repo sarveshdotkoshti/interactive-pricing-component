@@ -86,6 +86,13 @@ Frontend Developer | [sarveshdotkoshti](https://github.com/sarveshdotkoshti) | [
 If you have any questions, feel free to reach out to me via GitHub
 
 ---
+## Screenshot
+Here’s a preview of the project:
+
+[desktop-view](./screenshot/desktop-dark-mode.png)
+[desktop-dark-mode](./screenshot/desktop-dark-mode.png)
+[mobile-view](./screenshot/mobile-view.png)
+[mobile=dark-mode](./screenshot/mobile-dark-mode.png)
 
 ## Live Preview
 
