@@ -94,6 +94,10 @@ Here’s a preview of the project:
 [mobile-view](./public/screenshot/mobile-view.png) |
 [mobile=dark-mode](./public/screenshot/mobile-dark-mode.png)
 
+Here's short video of project
+
+[working-video](./public/screenshot/project-video.mp4)
+
 ## Live Preview
 
 Check out the live version of the project here: [Interactive Pricing Component](https://interactive-pricing-component-janf.vercel.app/)
